@@ -11,15 +11,19 @@ public class Identity {
 	private String uid;
 
 	/**
+	 * Default constructor
+	 */
+	public Identity() {
+
+	}
+	
+	/**
+	 * Parameterised constructor
+	 * 
 	 * @param displayName
 	 * @param email
 	 * @param uid
 	 */
-
-	public Identity() {
-
-	}
-
 	public Identity(String displayName, String email, String uid) {
 		this.displayName = displayName;
 		this.email = email;
